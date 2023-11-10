@@ -1,5 +1,5 @@
 import os
-os.system('pip install transformers')
+os.system('pip install transformers') 
 import streamlit as st
 #импортируем библиотеку streamlit, чтобы запустить код в приложении
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
